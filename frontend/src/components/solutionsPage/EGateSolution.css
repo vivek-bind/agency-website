@@ -1,0 +1,132 @@
+.egate-section {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--section-bg);
+}
+
+.egate-container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.egate-content {
+  flex: 1 1 480px;
+}
+
+.egate-title {
+  color: var(--hero1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.egate-subtitle {
+  color:var(--subtitle);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.egate-description {
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.egate-keyfeatures {
+  color: var(--hero1);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-list {
+  color: var(--hero1);
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.list-item{
+  color:var(--text-color)
+}
+.feature-list li {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.benefits-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.benefits-box h4 {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.benefits-box ul li {
+  padding: 0;
+  margin: 0;
+  color:var(--text-color);
+  line-height: 1.6;
+}
+
+
+
+
+
+.egate-imagebox {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.egate-gradient-box-heading{
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #00b4ff, #0066ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 153, 255, 0.3);
+}
+
+.egate-gradient-box {
+  width: 380px;
+  height: 380px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #00b4ff, #0066ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 153, 255, 0.3);
+}
+.lrn-more-btn{
+   background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--button-border);
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.lrn-more-btn:hover {
+  background: linear-gradient(90deg, #00b4ff, #007bff);
+  border-color: transparent;
+  transform: translateY(-2px);
+}

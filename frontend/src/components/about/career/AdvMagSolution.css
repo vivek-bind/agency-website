@@ -1,0 +1,127 @@
+.adv-mag-solution {
+  text-align: center;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 100px 30px;
+}
+.adv-mag-solution h2{
+color: var(--hero1);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.adv-mag-solution p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+
+  /* margin: 2 auto 40px; */
+  color: #236586;
+  line-height: 1.6;
+  font-size: 1.2rem;
+
+}
+.adv-cards-container {
+background-color: var(--section-bg);
+  display:grid;
+gap: 1px;
+padding: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); /* 2 cards per row */
+   /* space between cards */
+  justify-items: center; /* center cards horizontally */
+}
+
+
+
+.adv-card {
+ background: var(--card-bg); /* fallback color if variable not defined */
+  width: 15rem;
+  height: 18rem;
+  margin: 1rem;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  padding:10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.adv-card:hover {
+  background-color: var(--card-hover-bg);
+
+  
+  
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+.adv-card-icon{
+  width: 33px;
+  height: 33px;
+  padding: 10px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #00b4ff, #0066ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 153, 255, 0.3);
+}
+.adv-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.adv-card p{
+  color: var(--text-color-p);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 7px;
+}
+
+
+
+/* Additional Perks  */
+
+.adictional-perk{
+    background-color: var(--section-bg);
+    padding: 100px 30px;
+}
+.adictional-perk-content{
+    background-color: var(--card-bg);
+max-width: 77rem;
+height: auto;
+width: 99%;
+border-radius: 20px;
+
+}
+.adictional-perk-list-container{
+display: flex;
+  flex-wrap: wrap;        /* allows items to go to next row */
+  gap: 1rem; 
+
+
+}
+.adictional-perk-list-container  li {
+  flex: 0 0 calc(25% - 1rem);   /* 4 columns → each item = 25% width */
+  list-style: none;
+
+  padding-bottom: 20px;
+  border-radius: 8px;
+  font-size: small;
+  
+ 
+
+  
+}
+.adictional-perk-content h2{
+
+    margin-left: 3rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+.dot-icon{
+    vertical-align: middle;
+}

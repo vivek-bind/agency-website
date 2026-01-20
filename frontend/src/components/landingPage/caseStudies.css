@@ -1,0 +1,110 @@
+.case-studies {
+  text-align: center;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 100px 20px;
+}
+
+.case-studies h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.case-studies p {
+  color: var(--text-color);
+  opacity: 0.85;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+/* Grid layout for cards */
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto 50px auto;
+}
+
+/* Each card */
+.case-card {
+  
+  background-color: var(--card-bg);
+  border: 1px solid rgba(179, 212, 228, 0.3);
+  border-radius: 18px;
+  padding: 35px 25px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.4s ease;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+.case-icon{
+  background-color: var(--icon-bg);
+  border-radius: 50%;
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.case-card:hover {
+  background-color: var(--card-hover-bg);
+
+  
+  
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.case-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.case-card .stat {
+  font-size: 1rem;
+  color: var(--link-color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Read case study button inside cards */
+.case-card button {
+  background-color: transparent;
+  color:#51A2FF;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.case-card button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* View All button */
+.view-btn {
+  
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border: 1px solid var(--button-border);
+  font-weight: 700;
+  padding: 14px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.view-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+#aline-icon{
+  vertical-align: middle;
+}

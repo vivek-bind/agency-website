@@ -1,0 +1,85 @@
+.our-values{
+  text-align: center;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 100px 20px;
+}
+.our-values h2 {
+  color: var(--hero1);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.our-values p {
+  color: var(--text-color-p);
+  opacity: 0.8;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+/* Grid Layout */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.our-values-card {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+.our-values-card svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  color: var(--icon-color);
+}
+.our-values-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+.our-values-card p {
+  font-size: 1rem;
+  color: var(--text-color-p);
+  opacity: 0.8;
+}
+.our-values-card {
+  background-color: var(--card-bg);
+  
+
+  border-radius: 18px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.our-values-card:hover {
+  background-color:var(--card-hover-bg);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon */
+.our-values-icon {
+  background-color: var(--icon-bg);
+  border-radius: 20%;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+}
+/* Icon */
+.our-values-icon {
+  background: linear-gradient(145deg, #00b4ff, #0066ff);
+  border-radius: 20%;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+}
+

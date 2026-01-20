@@ -1,0 +1,70 @@
+/* Default transition for smooth theme switch */
+* {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+/* 🌙 DARK THEME */
+:root[data-theme="dark"] {
+  --bg-color: #0A1526;
+  --text-color: #ffffff;
+  --text-color-p:#7DD3FC;
+  --link-color: #cce7ff;
+  --button-bg: #075985;
+  --border-bottom:#031d37;
+  --button-text: #ffffff;
+  --section-bg: #012b47;
+  --card-bg:#075985;
+  --card-heading-color:#a2dff1;
+  --icon-bg:#009AE4;
+  --card-hover-bg: #0284C7;
+  --mag-logo: url('./assets/magLightLogo.png');
+  
+  
+ 
+  --hero1:white;
+  --hero2:linear-gradient(
+    to right,
+    #7dd3fc, /* sky-300 */
+    #38bdf8, /* sky-400 */
+    #0ea5e9  /* sky-500 */
+  );
+  --subtitle:rgb(9, 135, 199);
+  --magLogo: url('./assets/magLightLogo.png');
+}
+  
+
+
+/* ☀️ LIGHT THEME */
+:root[data-theme="light"] {
+  --bg-color: #EEF7FD;
+  --text-color: #001b33;
+  --text-color-p:#0C4A6E;
+  --link-color: #0055aa;
+  --button-bg: #97dff8 ;
+  --button-border: #c0edf6;
+  --button-text: #12161c;
+  --section-bg: #f3f6fa;
+  --card-bg:#E0F2FE;
+   --card-heading-color:#122029;
+  --icon-bg:#009AE4;
+  --card-hover-bg: #6bceef;
+  --mag-logo: url('./assets/magDarkLogo.png');
+  --hero1:rgb(12, 22, 47);
+  --hero2:linear-gradient(
+    to right,
+    #7dd3fc, /* sky-300 */
+    #38bdf8, /* sky-400 */
+    #0ea5e9  /* sky-500 */
+  );
+  --subtitle:#38bdf8;
+  --magLogo: url('./assets/magDarkLogo.png');
+}
+
+/* Apply theme to body */
+body {
+  /* background-color: var(--bg-color); */
+  color: var(--text-color);
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  margin: 0;
+  
+}

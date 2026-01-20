@@ -1,0 +1,30 @@
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  /*background: linear-gradient(to bottom, #001f3f, #002b4d);*/
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #236586;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: bold; 
+}
+.hero1{
+  color: var(--hero1);
+}
+.hero2 {
+  background: var(--hero2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

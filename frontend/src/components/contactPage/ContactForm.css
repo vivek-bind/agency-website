@@ -1,0 +1,39 @@
+.contact-form-page{
+    background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 100px 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--section-bg);
+    border-radius: 8px;
+
+}
+.input-box{
+    background-color:var(--section-bg); 
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+    transition: border-color 0.3s ease;
+
+}
+.submit-btn{
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.message-box{
+    height: 120px;
+}    

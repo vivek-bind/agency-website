@@ -1,0 +1,120 @@
+.our-client {
+  text-align: center;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  padding: 100px 20px;
+}
+.our-client h2{
+color: var(--hero1);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.our-client p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+
+  /* margin: 2 auto 40px; */
+  color: #236586;
+  line-height: 1.6;
+  font-size: 1.2rem;
+
+}
+.card-container {
+background-color: var(--section-bg);
+  display:grid;
+gap: 1px;
+padding: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); /* 2 cards per row */
+   /* space between cards */
+  justify-items: center; /* center cards horizontally */
+}
+
+
+
+.cards {
+ background: var(--card-bg); /* fallback color if variable not defined */
+  width: 15rem;
+  height: 35rem;
+  margin: 1rem;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  padding:10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.cards:hover {
+  background-color: var(--card-hover-bg);
+
+  
+  
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+}
+.client-icon{
+  width: 33px;
+  height: 33px;
+  padding: 10px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #00b4ff, #0066ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 153, 255, 0.3);
+}
+.services button{
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  width: 140px;
+  height: 30px;
+  border: 1px solid var(--button-border);
+  border-radius: 50px;
+  gap: 5px;
+  font-size: small;
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.services button:hover {
+  background: linear-gradient(90deg, #00b4ff, #007bff);
+  border-color: transparent;
+  transform: translateY(-2px);
+}
+
+.cards h3{
+  color: var(--heading-color);
+  font-size: 1.6rem;
+  margin: 15px 0;
+}
+.cards h4{
+  color: var(--card-heading-color);
+  font-size: 0.9rem;
+  margin: 5px 0 15px 0;
+  font-weight: bold;
+}
+.cards p{
+  color: var(--text-color-p);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 7px;
+}
+.services ul li{
+  border: solid 1px #02BDFF;;
+  border-radius: 15px;
+  color:#02BDFF;
+  font-size: 0.7rem;
+  padding: 5px 10px;
+  line-height: 1.4;
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+}
+
+

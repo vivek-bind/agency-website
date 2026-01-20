@@ -1,0 +1,69 @@
+/* 🌤️ CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(180deg, #e8f4ff 0%, #cbe4ff 100%);
+  color: var(--text-color);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Center content */
+.cta-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Title styling */
+.cta-section h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: var(--text-color);
+  line-height: 1.2;
+}
+
+/* Gradient word highlight */
+/*.cta-section h2 span {
+  background: linear-gradient(90deg, #007bff, #00b0ff);
+  
+  -webkit-text-fill-color: transparent;
+}
+
+/* Paragraph */
+.cta-section p {
+  font-size: 1.2rem;
+  color: var(--text-color-p);
+  opacity: 0.85;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+/* Button styling */
+.cta-section button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-section button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  box-shadow: 0 6px 18px rgba(0, 123, 255, 0.35);
+}
+
+/* 🌙 Dark Mode Support */
+:root[data-theme="dark"] .cta-section {
+  background: linear-gradient(180deg, #001a33 0%, #003366 100%);
+}
+.hero2 {
+  background: var(--hero2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

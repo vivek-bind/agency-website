@@ -1,0 +1,56 @@
+
+.hero {
+  text-align: center;
+
+  background-color: var(--section-bg);
+  color: var(--text-color);
+  
+}
+
+
+
+
+
+.hero p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: var(--text-color-p);
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  
+}
+
+.hero button {
+  background-color: #00a8ff;
+  color: #001f3f;
+  font-weight: 700;
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+  border:none ;
+  
+}
+
+.hero button:hover {
+  background-color: #26c1ff;
+}
+.heroHeading1{
+  color: var(--hero1);
+}
+.heroHeading2{
+  background: var(--hero2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroHeading1, .heroHeading2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  margin: 0 ;
+  line-height: 1.1;
+   font-size: clamp(2rem, 6vw, 6rem);
+}
